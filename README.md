@@ -13,3 +13,8 @@ Un angajat va lucra intr-o singura zona iar o zona va contine mai multi angajati
 Instrumentele si albumele vor apartine de cate o zona in parte.
 Vor fi disponibile informatii despre compozitorii unui album de muzica, astfel se va crea o tabela de legatura ‘Contributii’ pentru a putea gestiona informatiile din tabela ‘Albume’ si tabela ‘Artisti’.
 
+_Diagrama ERD:_
+
+![diagrama erd](https://user-images.githubusercontent.com/16005672/50727409-1c6ddb80-1123-11e9-98a9-2b59832bd284.jpg)
+
+
