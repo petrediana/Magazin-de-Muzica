@@ -1,0 +1,16 @@
+--Clustere
+
+create cluster cls_example(id_magazin number(3));
+create index indx_cls_example on cluster cls_example;
+
+create table example1
+cluster cls_example(id_magazin)
+as select * from Magazine;
+
+select * from example1;
+update example1
+set oras = '??'; --Modifica strict in tabela Example1
+
+select * from Example1;
+
+select * from user_clusters;
